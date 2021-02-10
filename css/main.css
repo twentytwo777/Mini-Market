@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #212121;
+    color: white;
+}
+
+.text-main {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.text-submain {
+    font-weight: 500;
+    font-style: italic;
+}
+
+.product {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    width: 350px;
+    height: 350px;
+    border-radius: 7.5px;
+}
+
+.note {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.753);
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.but {
+    background-color: #3195ff;
+    padding: 5px;
+    width: 36%;
+    border-radius: 7.5px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin-left: auto; 
+    margin-right: auto;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.767);
+}
+
+.but:hover {
+    background-color: #2a7fda;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(0.9);
+    box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+}
+
+.footer {
+    color: white;
+    background-color: #141414;
+    height: 245px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+    margin-top: 35px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 1px 0;
+}
+
+.inf {
+    padding-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.inf-right {
+    padding: 30px;
+    margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+    .product {
+        margin: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    #qqwe {
+        font-size: 20px;
+    }
+    #mini-inf {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 411px) {
+    #qqwe {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    .text-main {
+        font-size: 20px;
+    }
+    #mini-inf {
+        font-size: 12px;
+    }
+    .but {
+        width: 39%;
+    }
+    #like {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    #mini-inf {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 414px) {
+    #qqwe {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    #qqwe {
+        font-size: 17px;
+    }
+    #mini-inf {
+        font-size: 10px;
+    }
+    #like {
+        font-size: 13px;
+    }
+    .footer {
+        font-size: 15px;
+    }
+    .but {
+        width: 45%;
+    }
+}
